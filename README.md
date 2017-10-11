@@ -21,3 +21,7 @@ Alt Shift I     Inline
 Alt Shift L     Extract variable
 
 Ctrl Shift F    Reformat code
+
+# IntelliJ settings
+IntelliJ settings are kept in <user_dir>\<editor_dir>
+editor dir is for example "Webstorm 2017.2"
