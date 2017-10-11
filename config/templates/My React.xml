@@ -1,0 +1,12 @@
+<templateSet group="My React">
+  <template name="ss" value="this.setState({$END$});" description="this.setState" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="s" value="this.state.$END$" description="this.state." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
