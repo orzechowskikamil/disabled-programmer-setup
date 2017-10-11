@@ -1,0 +1,12 @@
+<keymap version="1" name="Orzech" parent="Eclipse">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
+  <action id="FindPrevious" />
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+</keymap>
