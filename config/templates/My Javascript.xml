@@ -1,0 +1,45 @@
+<templateSet group="My JavaScript">
+  <template name="fn" value="function($param$){&#10;$END$&#10;}" description="Insert function" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="f" value="($param$)=&gt;{$END$ }" description="Insert es6 function" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fnn" value="function $name$($param$){&#10;    $END$&#10;}" description="Insert named function" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fm" value="$name$($param$){&#10;    $END$&#10;}" description="Insert es6 class method" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($cond$) {&#10;    $END$&#10;}" description="If statement" toReformat="false" toShortenFQNames="true">
+    <variable name="cond" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for(let $i$=0,max;$i$&lt;max;$i$++){&#10;    $END$&#10;}" description="For statement" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="t" value="this.$END$" description="this." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
