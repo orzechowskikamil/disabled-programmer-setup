@@ -10,7 +10,7 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
 
  * F1               Quick documentation *(like context help)*
  * F2               Rename Refactoring *(like f2 changes name in file manager)*
- * F3               Go to definition *(I get used to it)*
+ * F3               Declaration *(I get used to it)*
  * F4               Find usages *(reverse of go to definition)*
  * F5               
  * F6
@@ -28,8 +28,8 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
  * Ctrl Q           
  * Ctrl W
  * Ctrl E
- * Ctrl R           Go to symbol *(I get used to it)*
- * Ctrl T           Go to file *(Similar command like go to symbol, similar key)*
+ * Ctrl R           Go to file
+ * Ctrl T           Go to symbol *(Similar command like go to file, similar key)*
  * Ctrl Y
  * Ctrl U
  * Ctrl I           Inline...
