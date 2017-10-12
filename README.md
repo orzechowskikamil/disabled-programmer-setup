@@ -1,13 +1,17 @@
-# editor-keymap
-Repo for holding common settings for my editors
+# Disabled programmer setup
+It's my storage for all editor settings which allow me to code quickier with my two working fingers.
+It's my private setup but if you have similar problem and you will inspire from this - you are welcome :-)
 
 ## Common keymap
-Keymap at least should contain those keys
+Keymap at least should contain those keys. 
 
- * F1               Quick documentation
- * F2               Rename Refactoring
- * F3               Go to definition
- * F4               Find usages
+*It was easier to write them down in notepad, instead of creating keymap in editor first. This keymap might break many conventions
+but keep in mind that it's optimized for programmer with paralyzed hands. For me, three keys combination is waste of time and effort*
+
+ * F1               Quick documentation *(like context help)*
+ * F2               Rename Refactoring *(like f2 changes name in file manager)*
+ * F3               Go to definition *(I get used to it)*
+ * F4               Find usages *(reverse of go to definition)*
  * F5               
  * F6
  * F7
@@ -17,15 +21,15 @@ Keymap at least should contain those keys
  * F11              Step into
  * Shift + F11      Step out
  * F12
- * Ctrl Insert      Duplicate line
- * Ctrl Delete      Delete line
- * Ctrl -           Fold
- * Ctrl +           Unfold
+ * Ctrl Insert      Duplicate line *(analogy to delete line)*
+ * Ctrl Delete      Delete line *(easy to remember - delete on steroids)*
+ * Ctrl -           Fold *(minus - less)*
+ * Ctrl +           Unfold *(plus - more)*
  * Ctrl Q           
  * Ctrl W
  * Ctrl E
- * Ctrl R           Go to symbol
- * Ctrl T           Go to file
+ * Ctrl R           Go to symbol *(I get used to it)*
+ * Ctrl T           Go to file *(Similar command like go to symbol, similar key)*
  * Ctrl Y
  * Ctrl U
  * Ctrl I           Inline...
@@ -35,26 +39,26 @@ Keymap at least should contain those keys
  * Ctrl \]
  * Ctrl \\          
  * Ctrl A           Select all
- * Ctrl Shift A     Action...
+ * Ctrl Shift A     Action... *(Standard key everywhere)*
  * Ctrl S           Save
- * Ctrl D           Delete line
+ * Ctrl D           
  * Ctrl F           Find 
- * Ctrl G           find in path
+ * Ctrl G           Find in path *(Analogy to ctrl F)*
  * Ctrl H           Replace
- * Ctrl J           Replace in path
- * Ctrl K           Pull
- * Ctrl Shift K     Unstash
- * Ctrl L           Push
- * Ctrl Shift L     Stash
- * Ctrl ;           Commit
- * Ctrl '           Fetch
+ * Ctrl J           Replace in path *(Analogy to ctrl H)*
+ * Ctrl K           Pull *(I get used to it)*
+ * Ctrl Shift K     Unstash *(analogy to pull)*
+ * Ctrl L           Push *(I get used to it)*
+ * Ctrl Shift L     Stash *(analogy to push)*
+ * Ctrl ;           Commit *(I get used to it)*
+ * Ctrl '           Fetch *(Close to other vcs actions keys)*
  * Ctrl Z           Undo
  * Ctrl X           Cut
  * Ctrl C           Copy
  * Ctrl V           Paste
- * Ctrl B           Reformat code (Beautify)
- * Ctrl N           Extract Variable
- * Ctrl M           Extract Method
+ * Ctrl B           Reformat code *(also: Beautify)*
+ * Ctrl N           Extract Variable *( also refactoring, extract and near to extract method)*
+ * Ctrl M           Extract Method *( method - M )*
  * Ctrl ,
  * Ctrl .
  * Ctrl /           Comment out
