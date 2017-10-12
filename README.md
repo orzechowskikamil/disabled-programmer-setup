@@ -19,6 +19,7 @@ Keymap at least should contain those keys
  * Alt Shift L      Extract variable
  * Ctrl Shift F     Reformat code
  * Ctrl Shift A     Action...
+ * Ctrl Shift R     Go to file...
 
 ## IntelliJ settings
 IntelliJ settings on PC are kept in <user_dir>\<editor_dir>
