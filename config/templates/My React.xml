@@ -9,4 +9,21 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="pt" value="PropTypes.$type$$optionalIsrequired$" description="PropTypes" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="  enum(&quot;string&quot;,&quot;func&quot;,&quot;number&quot;,&quot;object&quot;,&quot;array&quot;,&quot;any&quot;,&quot;symbol&quot;,&quot;element&quot;,&quot;node&quot;,&quot;instanceOf()&quot;,&quot;oneOf([''])&quot;,&quot;oneOfType([])&quot;, &quot;arrayOf()&quot;,&quot;objectOf()&quot;,&quot;shape({})&quot;) " defaultValue="" alwaysStopAt="true" />
+    <variable name="optionalIsrequired" expression="enum(&quot;&quot;,&quot;.isRequired&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwm" value="componentWillMount(){&#10;}&#10;&#10;componentWillUnmount(){&#10;}" description="componentWillMount/Unmount" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="p" value="this.props." description="this.props." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
