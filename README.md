@@ -37,9 +37,12 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
  * Ctrl I           Inline...
  * Ctrl O
  * Ctrl P
- * Ctrl \[
- * Ctrl \]
- * Ctrl \\          
+ * Ctrl \[          Pull *(I get used to it)*
+ * Ctrl Shift \[    Unstash *(analogy to pull)*
+ * Ctrl \]          Push *(I get used to it)*
+ * Ctrl Shift \]    Stash *(analogy to push)*
+ * Ctrl \\          Commit *(I get used to it)*
+ * Ctrl Shift \\    Fetch *(Close to other vcs actions keys)*    
  * Ctrl A           Select all
  * Ctrl Shift A     Action... *(Standard key everywhere)*
  * Ctrl S           Save
@@ -48,12 +51,10 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
  * Ctrl G           Find in path *(Analogy to ctrl F)*
  * Ctrl H           Replace
  * Ctrl J           Replace in path *(Analogy to ctrl H)*
- * Ctrl K           Pull *(I get used to it)*
- * Ctrl Shift K     Unstash *(analogy to pull)*
- * Ctrl L           Push *(I get used to it)*
- * Ctrl Shift L     Stash *(analogy to push)*
- * Ctrl ;           Commit *(I get used to it)*
- * Ctrl '           Fetch *(Close to other vcs actions keys)*
+ * Ctrl K
+ * Ctrl L           Extract variable *(like standard alt shift L but shorter)*
+ * Ctrl ;
+ * Ctrl '
  * Ctrl Z           Undo
  * Ctrl X           Cut
  * Ctrl C           Copy
