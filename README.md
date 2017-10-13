@@ -21,8 +21,10 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
  * F11              Step into
  * Shift + F11      Step out
  * F12
- * Ctrl Insert      Duplicate line *(analogy to delete line)*
- * Ctrl Delete      Delete line *(easy to remember - delete on steroids)*
+ * Shift Insert     Duplicate line *(analogy to delete line)*
+ * Shift Delete     Delete line *(easy to remember - delete on steroids)*
+ * Ctrl Backspace   Delete to word start *(standard key shortcut)*
+ * Ctrl Delete      Delete to word end *(analogy to delete to word start)*
  * Ctrl -           Fold *(minus - less)*
  * Ctrl +           Unfold *(plus - more)*
  * Ctrl Q           
