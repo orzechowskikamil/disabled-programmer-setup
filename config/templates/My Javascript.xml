@@ -42,4 +42,49 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="d" value="debugger" description="debugger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="import $paren$$what$$parenc$ from &quot;$where$&quot;;" description="Import" toReformat="false" toShortenFQNames="true">
+    <variable name="what" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="where" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="paren" expression="" defaultValue="{" alwaysStopAt="true" />
+    <variable name="parenc" expression="" defaultValue="}" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="map" value="map((value, i, arr)=&gt;{&#10;   return value;&#10;    $END$&#10;});&#10;" description="map" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="// TODO korzechowski: $END$" description="Signed todo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reduce" value="reduce((totalValue, currentValue, i, arr)=&gt;{&#10;  return totalValue;&#10;}, initialValue);" description="Reduce" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="forEach" value="forEach((value,i,arr)=&gt;{&#10;    $END$&#10;});" description="forEach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="foreach" value="forEach((value,i,arr)=&gt;{&#10;    $END$&#10;});" description="forEach duplicate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="b" value="bind($this$)" description="bind(this)" toReformat="false" toShortenFQNames="true">
+    <variable name="this" expression="" defaultValue="this" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
