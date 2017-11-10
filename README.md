@@ -12,9 +12,9 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
  * F2               Rename Refactoring *(like f2 changes name in file manager)*
  * F3               Declaration *(I get used to it)*
  * F4               Find usages *(reverse of go to definition)*
- * F5               
- * F6
- * F7
+ * F5               *(don't mess with refresh )*
+ * F6               Open file/Go to file
+ * F7               Close file
  * F8               Run
  * F9
  * F10              Step over
@@ -30,7 +30,7 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
  * Ctrl Q           
  * Ctrl W
  * Ctrl E
- * Ctrl R           Go to file
+ * Ctrl R           
  * Ctrl T           Go to symbol *(Similar command like go to file, similar key)*
  * Ctrl Y
  * Ctrl U
