@@ -69,8 +69,10 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
  * Ctrl Down        Move line down
  * Ctrl Left        Jump to previous word
  * Ctrl Right       Jump to next word
- * Ctrl Page up
- * Ctrl Page down
+ * Ctrl Page up     Move statement up
+ * Ctrl Page down   Move statement down
+ * Alt Up           Extend selection
+ * Alt Down         Shrink selection
 
 ## IntelliJ settings
 IntelliJ settings on PC are kept in <user_dir>\<editor_dir>
