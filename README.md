@@ -3,11 +3,11 @@ It's my storage for all editor settings which allow me to code quickier with my 
 It's my private setup but if you have similar problem and you will inspire from this - you are welcome :-)
 
 ## Common keymap
-Keymap at least should contain those keys.
+Standard programmer editors' keymaps mostly three letter combinations!
 
-*It was easier to write them down in notepad, instead of creating keymap in editor first. This keymap might break many conventions
-but keep in mind that it's optimized for programmer with paralyzed hands. For me, three keys combination is waste of time and effort.
-For you, probably also*
+It's important to have this keys setup everywhere && frequently remove unused mappings. This way it's much more easier to remember, and you will not feel it is becoming deprecated.
+
+*It was easier to write them down in notepad, instead of creating keymap in editor first, because standard keymap will not mix with your own. Such reference is easy to memoize. This keymap might break many conventions but keep in mind that it's optimized for programmer with paralyzed hands. For me, three keys combination is waste of time and effort. For you, probably also*
 
 
 
@@ -39,7 +39,7 @@ For you, probably also*
 | Ctrl T        | Go to symbol *(Similar command like go to file, similar key)* |
 | Ctrl Y        |                                                               |
 | Ctrl U        |                                                               |
-| Ctrl I        | Inline...                                                     |
+| Ctrl I        | Inline... (Refactoring)                                            |
 | Ctrl O        |                                                               |
 | Ctrl P        |                                                               |
 | Ctrl \[       | Pull *(I get used to it)*                   |
@@ -57,7 +57,7 @@ For you, probably also*
 | Ctrl H        | Replace                   |
 | Ctrl J        | Replace in path *(Analogy to ctrl H)*                   |
 | Ctrl K        |                   |
-| Ctrl L        | Extract variable *(like standard alt shift L but shorter)*                   |
+| Ctrl L        | Extract variable *(like standard eclipse alt shift L but shorter)*                   |
 | Ctrl ;        |                   |
 | Ctrl '        |                   |
 | Ctrl Z        | Undo *(Standard key)*                    |
@@ -65,7 +65,7 @@ For you, probably also*
 | Ctrl C        | Copy *(Standard key)*                    |
 | Ctrl V        | Paste *(Standard key)*                   |
 | Ctrl B        | Reformat code *(also: Beautify)*                   |
-| Ctrl N        | Extract Variable *( also refactoring&extract and near to extract method)*|
+| Ctrl N        | |
 | Ctrl M        | Extract Method *( method - M )* |                              |
 | Ctrl ,        |                               |
 | Ctrl .        |                               |
