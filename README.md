@@ -1,12 +1,13 @@
 # Disabled programmer setup
-It's my storage for all editor settings which allow me to code quickier with my two working fingers.
+It's my storage for all editor settings which allow me to code quickier with my only two working fingers.
 It's my private setup but if you have similar problem and you will inspire from this - you are welcome :-)
 
 ## Common keymap
 Keymap at least should contain those keys.
 
 *It was easier to write them down in notepad, instead of creating keymap in editor first. This keymap might break many conventions
-but keep in mind that it's optimized for programmer with paralyzed hands. For me, three keys combination is waste of time and effort*
+but keep in mind that it's optimized for programmer with paralyzed hands. For me, three keys combination is waste of time and effort.
+For you, probably also*
 
 
 
@@ -17,8 +18,8 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
 | F3            | Declaration *(I get used to it)*                              |
 | F4            | Find usages *(reverse of go to definition)*                   |
 | F5            | *(don't mess with refresh )*                                  |
-| F6            | Open file/Go to file                                          |
-| F7            | Close file                                                    |
+| F6            |                                                               |
+| F7            |                                                               |
 | F8            | Run                                                           |
 | F9            |                                                               |
 | F10           | Step over                                                     |
@@ -34,7 +35,7 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
 | Ctrl Q        |                                                               |
 | Ctrl W        |                                                               |
 | Ctrl E        |                                                               |
-| Ctrl R        |                                                               |
+| Ctrl R        | Go to file...                                                 |
 | Ctrl T        | Go to symbol *(Similar command like go to file, similar key)* |
 | Ctrl Y        |                                                               |
 | Ctrl U        |                                                               |
@@ -47,7 +48,7 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
 | Ctrl Shift \] | Stash *(analogy to push)*                   |
 | Ctrl \\       | Commit *(I get used to it)*                   |
 | Ctrl Shift \\ | Fetch *(Close to other vcs actions keys)*                   |
-| Ctrl A        | Select all                   |
+| Ctrl A        | Select all *(Standard key)*                 |
 | Ctrl Shift A  | Action... *(Standard key everywhere)*                   |
 | Ctrl S        | Save                   |
 | Ctrl D        |                   |
@@ -59,22 +60,22 @@ but keep in mind that it's optimized for programmer with paralyzed hands. For me
 | Ctrl L        | Extract variable *(like standard alt shift L but shorter)*                   |
 | Ctrl ;        |                   |
 | Ctrl '        |                   |
-| Ctrl Z        | Undo                   |
-| Ctrl X        | Cut                   |
-| Ctrl C        | Copy                   |
-| Ctrl V        | Paste                   |
+| Ctrl Z        | Undo *(Standard key)*                    |
+| Ctrl X        | Cut *(Standard key)*                    |
+| Ctrl C        | Copy *(Standard key)*                    |
+| Ctrl V        | Paste *(Standard key)*                   |
 | Ctrl B        | Reformat code *(also: Beautify)*                   |
-| Ctrl N        | Extract Variable *( also refactoring, extract and near to extract method)*|
+| Ctrl N        | Extract Variable *( also refactoring&extract and near to extract method)*|
 | Ctrl M        | Extract Method *( method - M )* |                              |
 | Ctrl ,        |                               |
 | Ctrl .        |                               |
-| Ctrl /        | Comment out                               |
+| Ctrl /        | Comment out  *(easy to remember - comments start with //)*                                |
 | Ctrl Up       | Move line up                               |
 | Ctrl Down     | Move line down                               |
-| Ctrl Left     | Jump to previous word                               |
-| Ctrl Right    | Jump to next word                               |
-| Ctrl Page up  | Move statement up                               |
-| Ctrl Page down| Move statement down                               |
+| Ctrl Left     | Jump to previous word *(standard key)*                            |
+| Ctrl Right    | Jump to next word *(standard key)*                              |
+| Ctrl Page up  | Move statement up  *(Analogy to move line-all move actions made with Ctrl)*                                |
+| Ctrl Page down| Move statement down *(Analogy to move line-all move actions made with Ctrl)*                             |
 | Alt Up        | Extend selection                               |
 | Alt Down      | Shrink selection                               |
 
