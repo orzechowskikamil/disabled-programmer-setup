@@ -42,7 +42,7 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl Delete   | Delete to word end *(analogy to delete to word start)*        |
 | Ctrl -        | Fold *(minus - less)*                                         |
 | Ctrl +        | Unfold *(plus - more)*                                        |
-| Ctrl Q        |                                                               |
+| Ctrl Q        | Action (Duplicate with Ctrl Shift A, but one key less)        |
 | Ctrl W        |                                                               |
 | Ctrl E        |                                                               |
 | Ctrl R        | Go to file...                                                 |
