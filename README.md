@@ -3,7 +3,9 @@ It's my storage for all editor settings which allow me to code quickier with my 
 It's my private setup but if you have similar problem and you will inspire from this - you are welcome :-)
 
 ## Common keymap
-Standard programmer editors' keymaps mostly three letter combinations!
+Standard programmer editors' keymaps mostly use three letter combinations!
+For what you need standard Ctrl+D "Print"? When lastly you printed something straight from your editor? I bet you even don't have a printer.
+Pressing three keys at once isn't rocket science. But you will probably agree, that in deep it feels "harder" and "less natural" than using two letter keys combination. (It's also true for two keys & one key, but our keyboards aren't that big)
 
 It's important to have this keys setup everywhere && frequently remove unused mappings. This way it's much more easier to remember, and you will not feel it is becoming deprecated.
 
@@ -26,8 +28,16 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | F11           | Step into                                                     |
 | Shift + F11   | Step out                                                      |
 | F12           |                                                               |
+| Alt Enter     | Resolve  |
+| Alt Insert    | Generate...  |
+| Alt Delete |   |
+| Alt Backspace  |   |
 | Shift Insert  | Duplicate line *(analogy to delete line)*                     |
 | Shift Delete  | Delete line *(easy to remember - delete on steroids)*         |
+| Shift Backspace|  |
+| Shift Enter   |  |
+| Ctrl Insert   |  |
+| Ctrl Enter    | |
 | Ctrl Backspace| Delete to word start *(standard key shortcut)*                |
 | Ctrl Delete   | Delete to word end *(analogy to delete to word start)*        |
 | Ctrl -        | Fold *(minus - less)*                                         |
@@ -78,6 +88,10 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl Page down| Move statement down *(Analogy to move line-all move actions made with Ctrl)*                             |
 | Alt Up        | Extend selection                               |
 | Alt Down      | Shrink selection                               |
+| Alt Left      |   |
+| Alt Right     |   |
+| Alt Page Up   |   |
+| Alt Page Down |   |
 
 ## IntelliJ settings
 IntelliJ settings on PC are kept in <user_dir>\<editor_dir>
