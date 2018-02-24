@@ -23,8 +23,8 @@ By Alt I mean Left alt everywhere
 | F5            | *(don't mess with refresh )*                                  |
 | F6            |                                                               |
 | F7            |                                                               |
-| F8            | Run                                                           |
-| F9            |                                                               |
+| F8            | Run / Resume                                                  |
+| F9            | Debug                                                         |
 | F10           | Step over                                                     |
 | F11           | Step into                                                     |
 | Shift + F11   | Step out                                                      |
