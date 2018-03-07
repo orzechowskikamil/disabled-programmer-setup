@@ -46,27 +46,29 @@ By Alt I mean Left alt everywhere
 | Ctrl Q        | Action (Duplicate with Ctrl Shift A, but one key less)        |
 | Ctrl W        |                                                               |
 | Ctrl E        |                                                               |
-| Ctrl R        | Go to file...                                                 |
-| Ctrl T        | Go to symbol *(Similar command like go to file, similar key)* |
+| Ctrl R        |                                       |
+| Ctrl T        | Terminal |
 | Ctrl Y        |                                                               |
 | Ctrl U        |                                                               |
 | Ctrl I        | Inline... (Refactoring)                                            |
 | Ctrl O        |                                                               |
-| Ctrl P        |                                                               |
+| Ctrl P        | Version Control view (near git keys)                         |
 | Ctrl \[       | Pull *(I get used to it)*                   |
-| Ctrl Shift \[ | Unstash *(analogy to pull)*                   |
+| Alt \[ | Unstash *(analogy to pull)*                   |
 | Ctrl \]       | Push *(I get used to it)*                   |
-| Ctrl Shift \] | Stash *(analogy to push)*                   |
+| Alt \] | Stash *(analogy to push)*                   |
 | Ctrl \\       | Commit *(I get used to it)*                   |
-| Ctrl Shift \\ | Fetch *(Close to other vcs actions keys)*                   |
+| Alt \\ | beforecommit                 |
 | Ctrl A        | Select all *(Standard key)*                 |
-| Ctrl Shift A  | Action... *(Standard key everywhere)*                   |
 | Ctrl S        | Save                   |
-| Ctrl D        |                   |
+| Ctrl D        |                 |
 | Ctrl F        | Find                   |
-| Ctrl G        | Find in path *(Analogy to ctrl F)*                   |
+| Alt F        | Find in path *(Analogy to ctrl F)*                   |
+| Ctrl G        | Navigate/file *(similarity to find)*|
+| Alt G         | Navigate/symbol *(Similar command like go to file, similar key)* |
 | Ctrl H        | Replace                   |
-| Ctrl J        | Replace in path *(Analogy to ctrl H)*                   |
+| Alt H         | Replace in path *(Analogy to ctrl H)*                   |
+| Ctrl J        |  |
 | Ctrl K        |                   |
 | Ctrl L        | Extract variable *(like standard eclipse alt shift L but shorter)*                   |
 | Ctrl ;        |                   |
