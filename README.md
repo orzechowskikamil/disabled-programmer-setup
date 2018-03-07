@@ -89,8 +89,8 @@ By Alt I mean Left alt everywhere
 | Ctrl Page down| Move statement down *(Analogy to move line-all move actions made with Ctrl)*                             |
 | Alt Up        | Extend selection                               |
 | Alt Down      | Shrink selection                               |
-| Alt Left      |   |
-| Alt Right     |   |
+| Alt Left      | Go to previous edit place   |
+| Alt Right     | Go to next edit place  |
 | Alt Page Up   |   |
 | Alt Page Down |   |
 | Alt - |   |
