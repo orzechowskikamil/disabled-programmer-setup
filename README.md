@@ -51,12 +51,13 @@ By Alt I mean Left alt everywhere
 | Ctrl Y        |                                                               |
 | Ctrl U        |                                                               |
 | Ctrl I        | Inline... (Refactoring)                                            |
-| Ctrl O        |                                                               |
+| Ctrl O        | Navigate to file (Chrome dev tools use ctrl o) |
+| Alt O         | Navigate to symbol (analogyy with navigate to file) |
 | Ctrl P        | Version Control view (near git keys)                         |
 | Ctrl \[       | Pull *(I get used to it)*                   |
 | Alt \[ | Unstash *(analogy to pull)*                   |
 | Ctrl \]       | Push *(I get used to it)*                   |
-| Alt \] | Stash *(analogy to push)*                   |
+| Alt \] | Stash *(analogy to push)*                       |
 | Ctrl \\       | Commit *(I get used to it)*                   |
 | Alt \\ | beforecommit                 |
 | Ctrl A        | Select all *(Standard key)*                 |
@@ -64,8 +65,7 @@ By Alt I mean Left alt everywhere
 | Ctrl D        |                 |
 | Ctrl F        | Find                   |
 | Alt F        | Find in path *(Analogy to ctrl F)*                   |
-| Ctrl G        | Navigate/file *(similarity to find)*|
-| Alt G         | Navigate/symbol *(Similar command like go to file, similar key)* |
+| Ctrl G        |      |
 | Ctrl H        | Replace                   |
 | Alt H         | Replace in path *(Analogy to ctrl H)*                   |
 | Ctrl J        |  |
