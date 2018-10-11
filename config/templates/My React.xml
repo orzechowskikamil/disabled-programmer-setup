@@ -1,27 +1,98 @@
 <templateSet group="My React">
-  <template name="ss" value="this.setState({$END$});" description="this.setState" toReformat="false" toShortenFQNames="true">
+  <template name="tss" value="this.setState({$END$});" description="this.setState" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="s" value="this.state.$END$" description="this.state." toReformat="false" toShortenFQNames="true">
+  <template name="ts" value="this.state.$END$" description="this.state." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="pt" value="PropTypes.$type$$optionalIsrequired$" description="PropTypes" toReformat="false" toShortenFQNames="true">
-    <variable name="type" expression="  enum(&quot;string&quot;,&quot;func&quot;,&quot;number&quot;,&quot;object&quot;,&quot;array&quot;,&quot;any&quot;,&quot;symbol&quot;,&quot;element&quot;,&quot;node&quot;,&quot;instanceOf()&quot;,&quot;oneOf([''])&quot;,&quot;oneOfType([])&quot;, &quot;arrayOf()&quot;,&quot;objectOf()&quot;,&quot;shape({})&quot;) " defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="  enum(&quot;string&quot;,&quot;func&quot;,&quot;bool&quot;,&quot;number&quot;,&quot;object&quot;,&quot;array&quot;,&quot;any&quot;,&quot;symbol&quot;,&quot;element&quot;,&quot;node&quot;,&quot;instanceOf()&quot;,&quot;oneOf([])&quot;,&quot;oneOfType([])&quot;, &quot;arrayOf()&quot;,&quot;objectOf()&quot;,&quot;shape({})&quot;) " defaultValue="" alwaysStopAt="true" />
     <variable name="optionalIsrequired" expression="enum(&quot;&quot;,&quot;.isRequired&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cwm" value="componentWillMount(){&#10;}&#10;&#10;componentWillUnmount(){&#10;}" description="componentWillMount/Unmount" toReformat="false" toShortenFQNames="true">
+  <template name="tp" value="this.props." description="this.props." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="p" value="this.props." description="this.props." toReformat="false" toShortenFQNames="true">
+  <template name="component" value="import React, {Component} from &quot;react&quot;;&#10;import PropTypes from &quot;prop-types&quot;;&#10;import styles from &quot;./$name$.scss&quot;;&#10;&#10;export class $name$ extends Component {&#10;  static propTypes = {&#10;  };&#10;&#10;  render() {&#10;    return (&lt;div className={styles.$name$}&gt;&lt;/div&gt;);&#10;  }&#10;}&#10;&#10;&#10;@import &quot;styles/base&quot;;&#10;.$name${&#10;}" description="React component" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c=" value="const {$cos$}=$o$" description="const {}=this.state" toReformat="false" toShortenFQNames="true">
+    <variable name="cos" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="o" expression="enum(&quot;this.props&quot;,&quot;this.state&quot;,&quot;this.renderProps&quot;,&quot;this.transformedProps&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lifecycle" value="// TODO k.orzechowski: REACT LIFECYCLE - REMOVE THIS COMMENT&#10;//static propTypes = {};&#10;//static defaultProps = {};&#10;//state = {};&#10;//displayName = &quot;&quot;;&#10;//constructor(props){super(props)}&#10;/**Called after component instantiation, and when props are updated*/&#10;//static getDerivedStateFromProps(nextProps, prevState){return newState||null;}&#10;/**Called before component is mounted. Use constructor instead*/&#10;//UNSAFE_componentWillMount(){}&#10;/**Called after first render. Subscribe to API here*/&#10;//componentDidMount(){}&#10;/**Called before props are updated. Prefer getDerivedStateFromProps */&#10;//UNSAFE_componentWillReceiveProps(nextProps){}&#10;/**Called when props or state are updated, returning false prevents rerender*/&#10;//shouldComponentUpdate(nextProps, nextState){return true}&#10;/**Called when props or state are updated, before rendering. Prefer getDerivedStateFromProps */&#10;//UNSAFE_componentWillUpdate(nextProps, nextState){}&#10;/**Called before DOM update*/&#10;//getSnapshotBeforeUpdate(prevProps, prevState) {}&#10;/**Called after DOM update*/&#10;//componentDidUpdate(prevProps, prevState, snapshot){}&#10;/**Called before component is removed from DOM. Unsubscribe here*/&#10;//componentWillUnmount(){}&#10;/**Called when error is thrown in CHILD component*/&#10;//componentDidCatch(error, info){}&#10;//render(){return null}&#10;" description="insert react lifecycle methods" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="createSelector" value="const get$name$=createSelector([get$s$ , get$d$], ($p$, $c$)=&gt;{&#10;$END$&#10;});&#10;&#10;get$name$:()=&gt;get$name$(state,props)," description="reselect's create selector" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="d" expression="capitalize(c)" defaultValue="" alwaysStopAt="true" />
+    <variable name="s" expression="capitalize(p)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="selector" value="const get$name$=(state,props)=&gt;{&#10;$END$&#10;};" description="reselect's 1st class selector" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pts" value="PropTypes.string" description="PropType.string" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="s" value="styles." description="styles." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="className={styles.$END$} " description="className=styles." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="className={styles.$END$} " description="alias to className" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptf" value="PropTypes.func&#10;" description="propTypes.func" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptsh" value="PropTypes.shape({$END$})&#10;" description="PropTypes.shape" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptb" value="PropTypes.bool" description="PropTypes.bool" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="expect($VAL$).to.be.equal($2$);" description="expect" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
