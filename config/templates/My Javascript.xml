@@ -1,37 +1,37 @@
 <templateSet group="My JavaScript">
-  <template name="fn" value="function($param$){&#10;$END$&#10;}" description="Insert function" toReformat="false" toShortenFQNames="true">
+  <template name="fn" value="function($param$){&#10;$END$$SELECTION$&#10;}" description="Insert function" toReformat="false" toShortenFQNames="true">
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="f" value="($param$)=&gt;{$END$ }" description="Insert es6 function" toReformat="false" toShortenFQNames="true">
+  <template name="f" value="($param$)=&gt;{$END$$SELECTION$ }" description="Insert es6 function" toReformat="false" toShortenFQNames="true">
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="fnn" value="function $name$($param$){&#10;    $END$&#10;}" description="Insert named function" toReformat="false" toShortenFQNames="true">
+  <template name="fnn" value="function $name$($param$){&#10;    $END$$SELECTION$&#10;}" description="Insert named function" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="fm" value="$name$($param$){&#10;    $END$&#10;}" description="Insert es6 class method" toReformat="false" toShortenFQNames="true">
+  <template name="fm" value="$name$($param$){&#10;    $END$$SELECTION$&#10;}" description="Insert es6 class method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="if" value="if ($cond$) {&#10;    $END$&#10;}" description="If statement" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if ($cond$) {&#10;    $END$$SELECTION$&#10;}" description="If statement" toReformat="false" toShortenFQNames="true">
     <variable name="cond" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="for" value="for(let $i$=0,max;$i$&lt;max;$i$++){&#10;    $END$&#10;}" description="For statement" toReformat="false" toShortenFQNames="true">
+  <template name="for" value="for(let $i$=0,max;$i$&lt;max;$i$++){&#10;    $END$$SELECTION$&#10;}" description="For statement" toReformat="false" toShortenFQNames="true">
     <variable name="i" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -56,33 +56,204 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="map" value="map((value, i, arr)=&gt;{&#10;   return value;&#10;    $END$&#10;});&#10;" description="map" toReformat="false" toShortenFQNames="true">
+  <template name="map" value="map((value)=&gt;$obj$$END$$SELECTION$)&#10;" description="map" toReformat="false" toShortenFQNames="true">
+    <variable name="obj" expression="enum(&quot;&quot;,&quot;({  })&quot;,&quot;{return value}&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="todo" value="// TODO korzechowski: $END$" description="Signed todo" toReformat="false" toShortenFQNames="true">
+  <template name="todo" value="// TODO k.orzechowski: $END$" description="Signed todo" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="reduce" value="reduce((totalValue, currentValue, i, arr)=&gt;{&#10;  return totalValue;&#10;}, initialValue);" description="Reduce" toReformat="false" toShortenFQNames="true">
+  <template name="reduce" value="reduce((total, value)=&gt;{&#10;  return total;&#10;}, $initial$);" description="Reduce" toReformat="false" toShortenFQNames="true">
+    <variable name="initial" expression="" defaultValue="/*initial*/" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="forEach" value="forEach((value,i,arr)=&gt;{&#10;    $END$&#10;});" description="forEach" toReformat="false" toShortenFQNames="true">
+  <template name="forEach" value="forEach(value=&gt;{&#10;    $END$$SELECTION$&#10;});" description="forEach" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="foreach" value="forEach((value,i,arr)=&gt;{&#10;    $END$&#10;});" description="forEach duplicate" toReformat="false" toShortenFQNames="true">
+  <template name="foreach" value="forEach(value=&gt;{&#10;    $END$$SELECTION$&#10;});" description="forEach duplicate" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="b" value="bind($this$)" description="bind(this)" toReformat="false" toShortenFQNames="true">
     <variable name="this" expression="" defaultValue="this" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="r" value="return " description="return keyword" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="typeof" value="typeof $val$$SELECTION$ $comp$ &quot;$type$&quot;" description="typeof" toReformat="false" toShortenFQNames="true">
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comp" expression="enum(&quot;!==&quot;,&quot;===&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="enum(&quot;string&quot;,&quot;number&quot;,&quot;object&quot;,&quot;function&quot;,&quot;boolean&quot;,&quot;undefined&quot;)" defaultValue="undefined" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="call" value="if ($fn$$SELECTION$){&#10;$fn$$SELECTION$();&#10;}" description="call function only if it's not null" toReformat="false" toShortenFQNames="true">
+    <variable name="fn" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="filter" value="filter(v=&gt;$END$)" description="filter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="v" value="$d$" description="var const let" toReformat="false" toShortenFQNames="true">
+    <variable name="d" expression="enum(&quot;let&quot;,&quot;const&quot;,&quot;var&quot;)" defaultValue="let" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="console.log($d$);" description="log" toReformat="false" toShortenFQNames="true">
+    <variable name="d" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="find" value="find(v=&gt;$END$)" description="array find" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="keys" value="Object.keys($v$)$END$" description="insert Object.keys(object)" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="values" value="Object.values($v$)$END$" description="insert Object.values(object)" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="entries" value="Object.entries($v$)$END$&#10;const [key,value]=entry;" description="insert Object.entries(object)" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c" value="const $n$ = $END$;" description="const" toReformat="false" toShortenFQNames="true">
+    <variable name="n" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="oreduce" value="Object.entries($obj$).reduce((result, [key,value])=&gt;{&#10;  result[key]=value;&#10;  return result;&#10;},{});" description="Reduce on Object" toReformat="false" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isbool" value="typeof $v$ === &quot;boolean&quot;" description="check if variable is boolean" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isfunc" value="typeof $v$ === &quot;function&quot;" description="check if variable is function" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isnum" value="typeof $v$ === &quot;number&quot;" description="check if variable is number" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isint" value="Number.isInteger($v$);" description="check if variable is integer" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isobj" value="typeof $v$ === &quot;object&quot;" description="check if variable is object" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isarr" value="Array.isArray($v$)" description="check if variable is array" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isnull" value="$v$ === null" description="check if variable is null" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isund" value="typeof $v$ === &quot;undefined&quot;" description="check if variable is undefined" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isstr" value="typeof $v$ === &quot;string&quot;" description="check if variable is string" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="range" value="[...Array($howmuch$).keys()]" description="Creates array within a range" toReformat="false" toShortenFQNames="true">
+    <variable name="howmuch" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="3" value="${$END$}" description="${} for string interpolation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ko" value="k.orzechowski: $END$" description="my signature" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="// todo" value="// TODO k.orzechowski: $END$" description="Signed todo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//todo" value="// TODO k.orzechowski: $END$" description="Signed todo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="json" value="JSON.$rest$" description="JSON" toReformat="false" toShortenFQNames="true">
+    <variable name="rest" expression="enum(&quot;stringify( obj   , null,2)&quot;,&quot;stringify(obj)&quot;,&quot;parse(obj)&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="throw" value="throw new Error($msg$)" description="Throw new error" toReformat="false" toShortenFQNames="true">
+    <variable name="msg" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="amap" value="await Promise.all($array$.map(async (obj)=&gt;{return await obj;})) " description="asynchronous map" toReformat="false" toShortenFQNames="true">
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
