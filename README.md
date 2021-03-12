@@ -13,6 +13,8 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 
 *It was easier to write them down in notepad, instead of creating keymap in editor first, because standard keymap will not mix with your own. Such reference is easy to memoize. This keymap might break many conventions but keep in mind that it's optimized for programmer with paralyzed hands. For me, three keys combination is waste of time and effort. For you, probably also*
 
+Command names are taken from Intellij Idea. Notice that you can find command by using Find action (Ctrl+shift+A natively) and by alt+enter assign new shortcut to it.
+
 
 |Key combination| Command                                                       |
 |---------------|---------------------------------------------------------------|
@@ -48,7 +50,7 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl E        |                                                               |
 | Ctrl R        |                                       |
 | Ctrl T        | Terminal (Because T is first letter of Terminal, cpt obvious) |
-| Ctrl Y        |                                                               |
+| Ctrl Y        | Redo *(standard key)*                                                            |
 | Ctrl U        |                                                               |
 | Ctrl I        | Inline... (Refactoring)                                            |
 | Ctrl O        | Navigate to file *(Chrome dev tools use ctrl o)* |
