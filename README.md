@@ -23,14 +23,14 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | F5            | *(don't mess with refresh )*                                  |
 | F6            |                                                               |
 | F7            |                                                               |
-| F8            | Run / Resume                                                  |
+| F8            | Run / Resume  (Standard chrome dev tools)                                             |
 | F9            | Debug                                                         |
-| F10           | Step over                                                     |
-| F11           | Step into                                                     |
-| Shift + F11   | Step out                                                      |
+| F10           | Step over  (Standard chrome dev tools)                                                   |
+| F11           | Step into   (Standard chrome dev tools)                                                   |
+| Shift + F11   | Step out  (Standard chrome dev tools)                                                     |
 | F12           |                                                               |
-| LAlt Enter     | Resolve  |
-| LAlt Insert    | Generate...  |
+| LAlt Enter     | Resolve (Standard key among ides for this)  |
+| LAlt Insert    | Generate... (Insert/Insertion sounds connected to generation)  |
 | LAlt Delete |   |
 | LAlt Backspace  |   |
 | Shift Insert  | Duplicate line *(analogy to delete line)*                     |
@@ -39,7 +39,7 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Shift Enter   |  |
 | Ctrl Insert   |  |
 | Ctrl Enter    | |
-| Ctrl Backspace| Delete to word start *(standard key shortcut)*                |
+| Ctrl Backspace| Delete to word start *(works in many editors)*                |
 | Ctrl Delete   | Delete to word end *(analogy to delete to word start)*        |
 | Ctrl -        | Fold *(minus - less)*                                         |
 | Ctrl +        | Unfold *(plus - more)*                                        |
@@ -51,9 +51,9 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl Y        |                                                               |
 | Ctrl U        |                                                               |
 | Ctrl I        | Inline... (Refactoring)                                            |
-| Ctrl O        | Navigate to file (Chrome dev tools use ctrl o) |
-| LAlt O         | Navigate to symbol (analogyy with navigate to file) |
-| Ctrl P        | Version Control view (near git keys)                         |
+| Ctrl O        | Navigate to file *(Chrome dev tools use ctrl o)* |
+| LAlt O         | Navigate to symbol *(analogyy with navigate to file)* |
+| Ctrl P        | Version Control view *(near git keys)*                         |
 | Ctrl \[       | Pull *(I get used to it)*                   |
 | LAlt \[ | Unstash *(analogy to pull)*                   |
 | Ctrl \]       | Push *(I get used to it)*                   |
@@ -67,11 +67,11 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl F        | Find                   |
 | LAlt F        | Find in path *(Analogy to ctrl F)*                   |
 | Ctrl G        |      |
-| Ctrl H        | Replace                   |
+| Ctrl H        | Replace (Must be ctrl H, ctrl G is reserved in macbooks)                 |
 | LAlt H         | Replace in path *(Analogy to ctrl H)*                   |
 | Ctrl J        |  |
 | Ctrl K        |                   |
-| Ctrl L        | Extract variable *(like standard eclipse alt shift L but shorter)*                   |
+| Ctrl L        | Introduce variable *(like standard eclipse alt shift L but shorter)*                   |
 | Ctrl ;        |                   |
 | Ctrl '        |                   |
 | Ctrl Z        | Undo *(Standard key)*                    |
@@ -92,8 +92,8 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl Page down| Move statement down *(Analogy to move line-all move actions made with Ctrl)*                             |
 | LAlt Up        | Extend selection                               |
 | LAlt Down      | Shrink selection                               |
-| LAlt Left      | <- Back (works among many editors, browsers)  |
-| LAlt Right     | -> Forward (works among many editors, browsers)  |
+| LAlt Left      | <- Back *(works among many editors, browsers)*  |
+| LAlt Right     | -> Forward *(works among many editors, browsers)*  |
 | LAlt Page Up   |   |
 | LAlt Page Down |   |
 | LAlt - |   |
