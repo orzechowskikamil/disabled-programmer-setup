@@ -23,14 +23,14 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | F5            | *(don't mess with refresh )*                                  |
 | F6            |                                                               |
 | F7            |                                                               |
-| F8            | Run / Resume  (Standard chrome dev tools)                                             |
-| F9            | Debug                                                         |
-| F10           | Step over  (Standard chrome dev tools)                                                   |
-| F11           | Step into   (Standard chrome dev tools)                                                   |
-| Shift + F11   | Step out  (Standard chrome dev tools)                                                     |
+| F8            | Run / Resume  *(Standard chrome dev tools)*                                            |
+| F9            | Debug *(nicely fit into F8-F11 debugging block)*                                                       |
+| F10           | Step over  *(Standard chrome dev tools)*                                                   |
+| F11           | Step into   *(Standard chrome dev tools)*                                                   |
+| Shift + F11   | Step out  *(Standard chrome dev tools)*                                                     |
 | F12           |                                                               |
-| LAlt Enter     | Resolve (Standard key among ides for this)  |
-| LAlt Insert    | Generate... (Insert/Insertion sounds connected to generation)  |
+| LAlt Enter     | Resolve *(Standard key among ides for this)*  |
+| LAlt Insert    | Generate... *(Insert/Insertion sounds connected to generation)*  |
 | LAlt Delete |   |
 | LAlt Backspace  |   |
 | Shift Insert  | Duplicate line *(analogy to delete line)*                     |
@@ -61,7 +61,7 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl \\       | Commit *(I get used to it)*                   |
 | LAlt \\ | beforecommit                 |
 | Ctrl A        | Select all *(Standard key)*                 |
-| LAlt A         | Find action (Shorter than Ctrl + Shift + A, and still use A letter) |
+| LAlt A         | Find action *(Shorter than Ctrl + Shift + A, and still use A - Action letter)* |
 | Ctrl S        | Save                   |
 | Ctrl D        |                 |
 | Ctrl F        | Find                   |
@@ -84,10 +84,10 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl ,        |                               |
 | Ctrl .        |                               |
 | Ctrl /        | Comment out  *(easy to remember - comments start with //)*                                |
-| Ctrl Up       | Move line up                               |
-| Ctrl Down     | Move line down                               |
-| Ctrl Left     | Jump to previous word *(standard key)*                            |
-| Ctrl Right    | Jump to next word *(standard key)*                              |
+| Ctrl Up       | Move line up *(pretty logical)*                              |
+| Ctrl Down     | Move line down *(pretty logical)*                             |
+| Ctrl Left     | Jump to previous word *(standard editors key)*                            |
+| Ctrl Right    | Jump to next word *(standard editors key)*                              |
 | Ctrl Page up  | Move statement up  *(Analogy to move line-all move actions made with Ctrl)*                                |
 | Ctrl Page down| Move statement down *(Analogy to move line-all move actions made with Ctrl)*                             |
 | LAlt Up        | Extend selection                               |
