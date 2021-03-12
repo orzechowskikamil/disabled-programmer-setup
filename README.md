@@ -47,7 +47,7 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 | Ctrl W        |                                                               |
 | Ctrl E        |                                                               |
 | Ctrl R        |                                       |
-| Ctrl T        | Terminal |
+| Ctrl T        | Terminal (Because T is first letter of Terminal, cpt obvious) |
 | Ctrl Y        |                                                               |
 | Ctrl U        |                                                               |
 | Ctrl I        | Inline... (Refactoring)                                            |
