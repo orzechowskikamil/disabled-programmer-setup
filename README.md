@@ -53,8 +53,8 @@ Command names are taken from Intellij Idea. Notice that you can find command by 
 | Ctrl Y        | Redo *(standard key)*                                                            |
 | Ctrl U        |                                                               |
 | Ctrl I        | Inline... (Refactoring)                                            |
-| Ctrl O        | Navigate to file *(Chrome dev tools use ctrl o)* |
-| LAlt O         | Navigate to symbol *(analogyy with navigate to file)* |
+| Ctrl O        | Go to file *(Chrome dev tools use ctrl o)* |
+| LAlt O         | Go to symbol *(analogyy with go to file, just alt instead of ctrl)* |
 | Ctrl P        | Version Control view *(near git keys)*                         |
 | Ctrl \[       | Pull *(I get used to it)*                   |
 | LAlt \[ | Unstash *(analogy to pull)*                   |
