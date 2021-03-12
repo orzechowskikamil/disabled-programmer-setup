@@ -2,6 +2,8 @@
 It's my storage for all editor settings which allow me to code quickier with my only two working fingers.
 It's my private setup but if you have similar problem and you will inspire from this - you are welcome :-)
 
+Keys are in text form instead of importable file, and it have hidden sense - process of reentering them into every editor which you use when you change computers, companies isn't pleasant, so you reenter only those which you are really using, which give you an idea which of them are most important for you, and need shortest and most handy key combinations.
+
 ## Common keymap
 Standard programmer editors' keymaps mostly use three letter combinations!
 For what you need standard Ctrl+D "Print"? When lastly you printed something straight from your editor? I bet you even don't have a printer.
@@ -11,15 +13,13 @@ It's important to have this keys setup everywhere && frequently remove unused ma
 
 *It was easier to write them down in notepad, instead of creating keymap in editor first, because standard keymap will not mix with your own. Such reference is easy to memoize. This keymap might break many conventions but keep in mind that it's optimized for programmer with paralyzed hands. For me, three keys combination is waste of time and effort. For you, probably also*
 
-By Alt I mean Left alt everywhere
-
 
 |Key combination| Command                                                       |
 |---------------|---------------------------------------------------------------|
 | F1            | Quick documentation *(like context help)*                     |
 | F2            | Rename Refactoring *(like f2 changes name in file manager)*   |
-| F3            | Declaration *(I get used to it)*                              |
-| F4            | Find usages *(reverse of go to definition)*                   |
+| F3            | Go to declaration or usages *(Highly used func so must be Fx)*|
+| F4            | Find usages *(opposite of go to declaration, must be close to F3)* |
 | F5            | *(don't mess with refresh )*                                  |
 | F6            |                                                               |
 | F7            |                                                               |
@@ -29,10 +29,10 @@ By Alt I mean Left alt everywhere
 | F11           | Step into                                                     |
 | Shift + F11   | Step out                                                      |
 | F12           |                                                               |
-| Alt Enter     | Resolve  |
-| Alt Insert    | Generate...  |
-| Alt Delete |   |
-| Alt Backspace  |   |
+| LAlt Enter     | Resolve  |
+| LAlt Insert    | Generate...  |
+| LAlt Delete |   |
+| LAlt Backspace  |   |
 | Shift Insert  | Duplicate line *(analogy to delete line)*                     |
 | Shift Delete  | Delete line *(easy to remember - delete on steroids)*         |
 | Shift Backspace|  |
@@ -43,7 +43,7 @@ By Alt I mean Left alt everywhere
 | Ctrl Delete   | Delete to word end *(analogy to delete to word start)*        |
 | Ctrl -        | Fold *(minus - less)*                                         |
 | Ctrl +        | Unfold *(plus - more)*                                        |
-| Ctrl Q        | Action (Duplicate with Ctrl Shift A, but one key less)        |
+| Ctrl Q        |        |
 | Ctrl W        |                                                               |
 | Ctrl E        |                                                               |
 | Ctrl R        |                                       |
@@ -52,22 +52,23 @@ By Alt I mean Left alt everywhere
 | Ctrl U        |                                                               |
 | Ctrl I        | Inline... (Refactoring)                                            |
 | Ctrl O        | Navigate to file (Chrome dev tools use ctrl o) |
-| Alt O         | Navigate to symbol (analogyy with navigate to file) |
+| LAlt O         | Navigate to symbol (analogyy with navigate to file) |
 | Ctrl P        | Version Control view (near git keys)                         |
 | Ctrl \[       | Pull *(I get used to it)*                   |
-| Alt \[ | Unstash *(analogy to pull)*                   |
+| LAlt \[ | Unstash *(analogy to pull)*                   |
 | Ctrl \]       | Push *(I get used to it)*                   |
-| Alt \] | Stash *(analogy to push)*                       |
+| LAlt \] | Stash *(analogy to push)*                       |
 | Ctrl \\       | Commit *(I get used to it)*                   |
-| Alt \\ | beforecommit                 |
+| LAlt \\ | beforecommit                 |
 | Ctrl A        | Select all *(Standard key)*                 |
+| LAlt A         | Find action (Shorter than Ctrl + Shift + A, and still use A letter) |
 | Ctrl S        | Save                   |
 | Ctrl D        |                 |
 | Ctrl F        | Find                   |
-| Alt F        | Find in path *(Analogy to ctrl F)*                   |
+| LAlt F        | Find in path *(Analogy to ctrl F)*                   |
 | Ctrl G        |      |
 | Ctrl H        | Replace                   |
-| Alt H         | Replace in path *(Analogy to ctrl H)*                   |
+| LAlt H         | Replace in path *(Analogy to ctrl H)*                   |
 | Ctrl J        |  |
 | Ctrl K        |                   |
 | Ctrl L        | Extract variable *(like standard eclipse alt shift L but shorter)*                   |
@@ -89,23 +90,19 @@ By Alt I mean Left alt everywhere
 | Ctrl Right    | Jump to next word *(standard key)*                              |
 | Ctrl Page up  | Move statement up  *(Analogy to move line-all move actions made with Ctrl)*                                |
 | Ctrl Page down| Move statement down *(Analogy to move line-all move actions made with Ctrl)*                             |
-| Alt Up        | Extend selection                               |
-| Alt Down      | Shrink selection                               |
-| Alt Left      | Go to previous edit place   |
-| Alt Right     | Go to next edit place  |
-| Alt Page Up   |   |
-| Alt Page Down |   |
-| Alt - |   |
-| Alt + |  |
-| Alt \[    |   |
-| Alt ]  |  |
-| Alt \\ |  |
-| Alt ; |  |
-| Alt '|  |
-| Alt ,|  |
-| Alt .|  |
-| Alt /|  |
-
-## IntelliJ settings
-IntelliJ settings on PC are kept in <user_dir>\<editor_dir>
-editor dir is for example "Webstorm 2017.2"
+| LAlt Up        | Extend selection                               |
+| LAlt Down      | Shrink selection                               |
+| LAlt Left      | <- Back (works among many editors, browsers)  |
+| LAlt Right     | -> Forward (works among many editors, browsers)  |
+| LAlt Page Up   |   |
+| LAlt Page Down |   |
+| LAlt - |   |
+| LAlt + |  |
+| LAlt \[    |   |
+| LAlt ]  |  |
+| LAlt \\ |  |
+| LAlt ; |  |
+| LAlt '|  |
+| LAlt ,|  |
+| LAlt .|  |
+| LAlt /|  |
